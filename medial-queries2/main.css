@@ -1,3 +1,60 @@
 body {
   background: papayawhip;
 }
+div.a { 
+  width: 100%;
+  height: 75px;
+  border: 1px blue solid;
+  text-align: center;
+}
+
+div.b { 
+  width: 100%;
+  height: 300px;
+  border: 1px blue solid;
+  text-align: center;
+}
+
+div.c { 
+  width: 100%;
+  height: 75px;
+  border: 1px blue solid;
+  text-align: center;
+}
+
+div.d {
+  width: 100%;
+  height: 75px;
+  border: 1px blue solid;
+  text-align: center;
+}
+
+div.e {
+  width: 100%;
+  height: 75px;
+  border: 1px blue solid;
+  text-align: center;
+}
+
+div.f {
+  width: 100%;
+  height: 75px;
+  border: 1px blue solid;
+  text-align: center;
+}
+
+@media(min-width: 375px) {
+
+  div.b { 
+    width: 70%;
+    height: 300px;
+    border: 1px red solid;
+    text-align: center;
+  }
+
+  div.c { 
+    width: 20%;
+    height: 300px;
+    border: 1px red solid;
+    text-align: center;
+  }
